@@ -1,0 +1,16 @@
+{
+  "poc": "Bull SDK fund() (NEW) — buyer-side cross-deal step swap: fund(A) executes fundPayment(B)",
+  "sdk": "bull-sdk.mjs (verbatim copy of src-live-2026-11-17/bull-sdk.mjs, sha256 03bd9498...)",
+  "escrow": "MockEscrowV3 (v2 source verbatim + v3 EIP-712 seller-consent gate), etched at 0xd961ca37e339e14e0d3478383a252e218fe7aa4a",
+  "openTamperCaught": true,
+  "attackerDealId": 1,
+  "legitDealId": "2",
+  "agreedBuy": "100 tokens for 0.5 ETH (deal A)",
+  "attackerDealTerms": "1 token for 0.5 ETH, buyerReceive=attacker (deal B)",
+  "victimTokensBefore": "0",
+  "victimTokensAfter": "0",
+  "victimEthSpentOnFund": "0.500056227478978048",
+  "dealBSettled": true,
+  "dealANeverFunded": true,
+  "exploited": true
+}
